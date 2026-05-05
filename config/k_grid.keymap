@@ -19,20 +19,20 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp Q    &kp W    &kp E      &kp R     &kp T                 &kp Y      &kp U      &kp I          &kp O    &kp P
-&kp A    &kp S    &kp D      &kp F     &kp G                 &kp H      &kp J      &kp K          &kp L    &kp SLASH
-&lt 2 Z  &lt 1 X  &kp C      &kp V     &kp B                 &kp N      &kp M      &kp COMMA      &kp DOT  &kp MINUS
-                  &kp LA(D)  &kp LGUI  &mt LEFT_SHIFT SPACE  &kp SPACE  &kp ENTER  &kp RC(SPACE)
+&kp Q    &kp W    &kp E         &kp R     &kp T                 &kp Y      &kp U      &kp I          &kp O    &kp P
+&kp A    &kp S    &kp D         &kp F     &kp G                 &kp H      &kp J      &kp K          &kp L    &kp SLASH
+&lt 2 Z  &lt 1 X  &kp C         &kp V     &kp B                 &kp N      &kp M      &kp COMMA      &kp DOT  &kp MINUS
+                  &kp LEFT_ALT  &kp LGUI  &mt LEFT_SHIFT SPACE  &kp SPACE  &kp ENTER  &kp RC(SPACE)
             >;
         };
 
         layer_1 {
             display-name = "Edit";
             bindings = <
-&kp N4  &none  &kp LBKT  &kp RBKT     &kp ESC    &kp TAB    &kp N7     &kp N8    &kp N9  &kp N0
-&none   &none  &kp LPAR  &kp RPAR     &kp AT     &kp EQUAL  &kp N4     &kp N5    &kp N6  &none
-&none   &none  &none     &kp PERCENT  &kp DOT    &kp MINUS  &kp N1     &kp N2    &kp N3  &none
-               &kp LALT  &kp LGUI     &kp SPACE  &kp SPACE  &kp ENTER  &kp BSPC
+&kp LG(LS(N4))  &none  &kp LBKT  &kp RBKT     &kp ESC    &kp TAB    &kp N7     &kp N8    &kp N9  &kp N0
+&none           &none  &kp LPAR  &kp RPAR     &kp AT     &kp EQUAL  &kp N4     &kp N5    &kp N6  &none
+&none           &none  &none     &kp PERCENT  &kp DOT    &kp MINUS  &kp N1     &kp N2    &kp N3  &none
+                       &kp LALT  &kp LGUI     &kp SPACE  &kp SPACE  &kp ENTER  &kp BSPC
             >;
         };
 
