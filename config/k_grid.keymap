@@ -11,6 +11,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <34 33>;
         };
+
+        kanaE {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <32 31>;
+        };
     };
 
     keymap {
@@ -19,10 +24,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp Q    &kp W  &kp E      &kp R     &kp T     &kp Y      &kp U      &kp I                      &kp O    &kp P
-&lt 2 A  &kp S  &kp D      &kp F     &kp G     &kp H      &kp J      &kp K                      &kp L    &kp SLASH
-&lt 1 Z  &kp X  &kp C      &kp V     &kp B     &kp N      &kp M      &kp COMMA                  &kp DOT  &kp MINUS
-                &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp ENTER  &mt RIGHT_SHIFT BACKSPACE
+&kp Q    &kp W  &kp E           &kp R     &kp T     &kp Y      &kp U      &kp I      &kp O    &kp P
+&lt 2 A  &kp S  &kp D           &kp F     &kp G     &kp H      &kp J      &kp K      &kp L    &kp SLASH
+&lt 1 Z  &kp X  &kp C           &kp V     &kp B     &kp N      &kp M      &kp COMMA  &kp DOT  &kp MINUS
+                &kp LEFT_SHIFT  &kp LALT  &kp LGUI  &kp SPACE  &kp ENTER  &kp LCTRL
             >;
         };
 
