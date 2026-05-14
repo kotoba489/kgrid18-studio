@@ -1,21 +1,21 @@
-if SHIELD_K_GRID_LEFT
+if SHIELD_K_GRID18_LEFT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_K_GRID_RIGHT
+if SHIELD_K_GRID18_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
 
 endif
 
-if SHIELD_K_GRID_LEFT || SHIELD_K_GRID_RIGHT
+if SHIELD_K_GRID18_LEFT || SHIELD_K_GRID18_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "kgrid20"
+    default "kgrid18"
 
 config ZMK_SPLIT
     default y

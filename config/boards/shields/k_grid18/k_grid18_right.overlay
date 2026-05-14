@@ -1,4 +1,4 @@
-#include "k_grid.dtsi"
+#include "k_grid18.dtsi"
 
 / {
     chosen {
