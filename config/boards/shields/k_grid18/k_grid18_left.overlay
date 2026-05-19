@@ -28,3 +28,8 @@
 &default_layout {
     kscan = <&kscan0>;
 };
+&zephyr_udc0 {
+    cdc_acm_uart0: cdc_acm_uart0 {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};
