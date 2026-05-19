@@ -3,6 +3,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+        zmk,studio-rpc-uart = &cdc_acm_uart0;
     };
 
     kscan0: kscan {
