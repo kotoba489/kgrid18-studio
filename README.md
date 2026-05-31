@@ -1,4 +1,3 @@
-
 # ⌨️ kgrid18
 ## 🛠️ Current Configuration 
 18キー（左右各9キー、最下段中央3キー×2）分割レイアウト。  
