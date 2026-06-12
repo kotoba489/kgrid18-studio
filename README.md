@@ -104,8 +104,10 @@ ZMK v0.3 固定・physical-layout 定義済み。Studio からキーマップを
 
 ## Bluetooth再接続の安定化
 
-電源OFF/ON後もBluetoothのペアリング情報（bond/profile）を保持できるように、ZMKのSettings/NVS保存設定を追加しています。  
+電源OFF/ON後もBluetoothのペアリング情報（bond/profile）を保持できるように、左右それぞれへZMKのSettings/NVS保存設定を追加しています。<br>
 これにより、MacやWindowsで一度ペアリングした後、毎回デバイス削除や再ペアリングをしなくても再接続しやすくなります。
+
+PC/Mac/Windows向けのGATT互換設定やCentral側バッテリーproxy/fetchingは左手Central側だけに入れています。右手Peripheral側は、左手Centralとの分割接続情報を保持するためのSettings/NVS保存設定だけを持たせています。
 
 あわせて、`settings_reset.uf2` でも保存領域を正しく初期化できるように `config/settings_reset.conf` を追加しています。  
 接続が不安定な場合は、PC/Mac側の古いペアリングを削除し、`settings_reset.uf2` → 通常ファームウェア → 新規ペアリングの順でやり直してください。
